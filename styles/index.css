@@ -226,6 +226,22 @@ body {
   text-align: center;
 }
 
+@media screen and (max-width: 1920px) {
+  html {
+    min-height: 100vh;
+  }
+
+  body {
+    min-height: 100vh;
+    width: 100%;
+    min-width: 1920px;
+  }
+
+  .content {
+    min-height: 100vh;
+  }
+}
+
 @media screen and (max-width: 450px) {
   html {
     min-height: 100vh;
