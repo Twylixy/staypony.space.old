@@ -213,6 +213,10 @@ body {
   margin-bottom: 40px;
 }
 
+.body-link {
+  display: inline-block;
+}
+
 .body-image {
   width: 500px;
   height: 500px;
